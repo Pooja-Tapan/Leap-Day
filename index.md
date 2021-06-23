@@ -7,10 +7,11 @@ layout: default
 MediaValet is providing IT pros, DAM consultants, admins and power users with a set of PowerShell Cmdlets that can be used to do heavy lifting tasks in the MediaValet DAM through the command line.
 
 # System Requirements
-## Windows Powershell 5.1
-## Powershell Core
 
 > You have two options: Use Windows Powershell 5.1 or use Powershell Core.
+
+## > Windows Powershell 5.1
+
 *   Windows Powershell 5.1.
 
 If you are using Windows 10 or Windows Server 2016, you do not need to upgrade PowerShell since these operating systems ship with Windows PowerShell. Older versions of windows need to be upgraded to Windows PowerShell 5.1. The instructions on how to upgrade can be found here.
@@ -27,6 +28,7 @@ Your machine needs to have .NET 4.7.2 before you install the MediaValet DAM Powe
 ```js
 Get-ChildItem "HKLM:SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full\" | Get-ItemPropertyValue -Name Release
 ```
+## > Powershell Core
 
 *   Powershell Core
 
