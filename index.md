@@ -12,8 +12,6 @@ MediaValet is providing IT pros, DAM consultants, admins and power users with a 
 
 ## > Windows Powershell 5.1
 
-*   Windows Powershell 5.1.
-
 If you are using Windows 10 or Windows Server 2016, you do not need to upgrade PowerShell since these operating systems ship with Windows PowerShell. Older versions of windows need to be upgraded to Windows PowerShell 5.1. The instructions on how to upgrade can be found here.
 
 You can verify that you have the correct version of PowerShell by running PowerShell and entering the command 
@@ -29,8 +27,6 @@ Your machine needs to have .NET 4.7.2 before you install the MediaValet DAM Powe
 Get-ChildItem "HKLM:SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full\" | Get-ItemPropertyValue -Name Release
 ```
 ## > Powershell Core
-
-*   Powershell Core
 
 If you work on a Mac or if you have a multi-platform environment where you work on both OsX and Windows, you should use Powershell 6.1. You can find installation instructions here.
 
