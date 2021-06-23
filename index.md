@@ -2,23 +2,15 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Introduction
 
-[Link to another page](./another-page.html).
+MediaValet is providing IT pros, DAM consultants, admins and power users with a set of PowerShell Cmdlets that can be used to do heavy lifting tasks in the MediaValet DAM through the command line.
 
-There should be whitespace between paragraphs.
+# System Requirements
+## * Windows Powershell 5.1
+## * Powershell Core
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+> You have two options: Use Windows Powershell 5.1 or use Powershell Core.
 
 ### Header 3
 
